@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DocumentContent>
+  <DBList>
+    <DB Name ="DB1">
+      <IP>192.168.1.1</IP>
+      <Username>apple</Username>
+      <Password>apple</Password>
+    </DB>
+  </DBList>
+
+  <WebList>
+  <Web Name="192.168.1.1">
+    <Url>https://www.yahoo.com.tw</Url>
+	</Web>
+  </WebList>
+
+  <ServiceList>
+		<Service Name = "Spooler">
+      <MemoryLimit>100</MemoryLimit>
+	  <RestartDay>3</RestartDay>
+    </Service> 
+  </ServiceList>
+
+  <ApplicationList>
+	<App Name = "tmpemr_fakeMaker">
+      <MemoryLimit>100</MemoryLimit>
+      <Path>C:\tmpemr_fakeMaker</Path>
+	  <RestartDay>3</RestartDay>
+    </App>
+  </ApplicationList>
+  
+   <DiskList>
+    <Disk Name = "C:\">
+      <LimitPercentage>30</LimitPercentage>
+    </Disk>
+  </DiskList>
+  
+  <JsonList>
+<Url>http://192.168.1.1/api/</Url>  
+  </JsonList>
+
+<ContactList>
+<!-- <Phone></Phone> -->
+</ContactList>
+
+</DocumentContent>

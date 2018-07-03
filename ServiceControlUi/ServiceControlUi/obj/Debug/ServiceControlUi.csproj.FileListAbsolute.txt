@@ -1,0 +1,32 @@
+c:\users\ean\documents\visual studio 2015\Projects\ServiceControlUi\ServiceControlUi\bin\Debug\ServiceControlUi.exe.config
+c:\users\ean\documents\visual studio 2015\Projects\ServiceControlUi\ServiceControlUi\bin\Debug\ServiceControlUi.exe
+c:\users\ean\documents\visual studio 2015\Projects\ServiceControlUi\ServiceControlUi\bin\Debug\ServiceControlUi.pdb
+c:\users\ean\documents\visual studio 2015\Projects\ServiceControlUi\ServiceControlUi\obj\Debug\ServiceControlUi.csprojResolveAssemblyReference.cache
+c:\users\ean\documents\visual studio 2015\Projects\ServiceControlUi\ServiceControlUi\obj\Debug\ServiceControlUi.Form1.resources
+c:\users\ean\documents\visual studio 2015\Projects\ServiceControlUi\ServiceControlUi\obj\Debug\ServiceControlUi.Properties.Resources.resources
+c:\users\ean\documents\visual studio 2015\Projects\ServiceControlUi\ServiceControlUi\obj\Debug\ServiceControlUi.csproj.GenerateResource.Cache
+c:\users\ean\documents\visual studio 2015\Projects\ServiceControlUi\ServiceControlUi\obj\Debug\ServiceControlUi.exe
+c:\users\ean\documents\visual studio 2015\Projects\ServiceControlUi\ServiceControlUi\obj\Debug\ServiceControlUi.pdb
+D:\WorkSpace\02 - Project\ServiceControlUi\ServiceControlUi\bin\Debug\ServiceControlUi.exe.config
+D:\WorkSpace\02 - Project\ServiceControlUi\ServiceControlUi\obj\Debug\ServiceControlUi.exe
+D:\WorkSpace\02 - Project\ServiceControlUi\ServiceControlUi\obj\Debug\ServiceControlUi.pdb
+D:\WorkSpace\02 - Project\ServiceControlUi\ServiceControlUi\bin\Debug\ServiceControlUi.exe
+D:\WorkSpace\02 - Project\ServiceControlUi\ServiceControlUi\bin\Debug\ServiceControlUi.pdb
+D:\WorkSpace\02 - Project\ServiceControlUi\ServiceControlUi\obj\Debug\ServiceControlUi.csprojResolveAssemblyReference.cache
+D:\WorkSpace\02 - Project\ServiceControlUi\ServiceControlUi\obj\Debug\ServiceControlUi.Form1.resources
+D:\WorkSpace\02 - Project\ServiceControlUi\ServiceControlUi\obj\Debug\ServiceControlUi.Properties.Resources.resources
+D:\WorkSpace\02 - Project\ServiceControlUi\ServiceControlUi\obj\Debug\ServiceControlUi.csproj.GenerateResource.Cache
+C:\Users\carrot\Desktop\COOL\ServiceControlUi\ServiceControlUi\obj\Debug\ServiceControlUi.csprojResolveAssemblyReference.cache
+C:\Users\carrot\Desktop\COOL\ServiceControlUi\ServiceControlUi\obj\Debug\ServiceControlUi.Form1.resources
+C:\Users\carrot\Desktop\COOL\ServiceControlUi\ServiceControlUi\obj\Debug\ServiceControlUi.Properties.Resources.resources
+C:\Users\carrot\Desktop\COOL\ServiceControlUi\ServiceControlUi\obj\Debug\ServiceControlUi.csproj.GenerateResource.Cache
+C:\Users\carrot\Desktop\COOL\ServiceControlUi\ServiceControlUi\bin\Debug\Dapper.dll
+C:\Users\carrot\Desktop\COOL\ServiceControlUi\ServiceControlUi\bin\Debug\Dapper.xml
+C:\Users\carrot\Desktop\COOL\ServiceControlUi\ServiceControlUi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\carrot\Desktop\COOL\ServiceControlUi\ServiceControlUi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\carrot\Desktop\COOL\ServiceControlUi\ServiceControlUi\bin\Debug\wasd.exe.config
+C:\Users\carrot\Desktop\COOL\ServiceControlUi\ServiceControlUi\bin\Debug\wasd.exe
+C:\Users\carrot\Desktop\COOL\ServiceControlUi\ServiceControlUi\bin\Debug\wasd.pdb
+C:\Users\carrot\Desktop\COOL\ServiceControlUi\ServiceControlUi\obj\Debug\wasd.exe
+C:\Users\carrot\Desktop\COOL\ServiceControlUi\ServiceControlUi\obj\Debug\wasd.pdb
+C:\Users\carrot\Desktop\COOL\ServiceControlUi\ServiceControlUi\bin\Debug\wasd_monitor.exe.config

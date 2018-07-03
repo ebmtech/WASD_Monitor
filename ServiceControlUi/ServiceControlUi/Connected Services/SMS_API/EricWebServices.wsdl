@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="InsertIntoTempEMR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="myClass" type="tns:emrClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="emrClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="docType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="isTest" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sheetver" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sheetname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="hisdocpk" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="histmpxml" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sensitive" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="chartno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="patgovid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="patname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="signcarduserid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="signcardusername" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="endeptid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="endeptname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="entime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VisitSeq" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="enseq" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="signstatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="deletemark" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Birthday" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sex" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Identity" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="InsertIntoTempEMRResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertIntoTempEMRResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="myClass" type="tns:SendMailClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SendMailClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="SenderAccount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SenderPassword" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReciverAddr" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Subject" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Msg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MailServer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CCAddr" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SendMailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendMailResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSMS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="myClass" type="tns:SendSMSClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SendSMSClass">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="send_text" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="phs" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="full_phs" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="send_unit" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="system_name" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SendSMSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendSMSResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="InsertIntoTempEMRSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertIntoTempEMR" />
+  </wsdl:message>
+  <wsdl:message name="InsertIntoTempEMRSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertIntoTempEMRResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMailSoapIn">
+    <wsdl:part name="parameters" element="tns:SendMail" />
+  </wsdl:message>
+  <wsdl:message name="SendMailSoapOut">
+    <wsdl:part name="parameters" element="tns:SendMailResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendSMSSoapIn">
+    <wsdl:part name="parameters" element="tns:SendSMS" />
+  </wsdl:message>
+  <wsdl:message name="SendSMSSoapOut">
+    <wsdl:part name="parameters" element="tns:SendSMSResponse" />
+  </wsdl:message>
+  <wsdl:portType name="EricWebServicesSoap">
+    <wsdl:operation name="InsertIntoTempEMR">
+      <wsdl:input message="tns:InsertIntoTempEMRSoapIn" />
+      <wsdl:output message="tns:InsertIntoTempEMRSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMail">
+      <wsdl:input message="tns:SendMailSoapIn" />
+      <wsdl:output message="tns:SendMailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS">
+      <wsdl:input message="tns:SendSMSSoapIn" />
+      <wsdl:output message="tns:SendSMSSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EricWebServicesSoap" type="tns:EricWebServicesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="InsertIntoTempEMR">
+      <soap:operation soapAction="http://tempuri.org/InsertIntoTempEMR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMail">
+      <soap:operation soapAction="http://tempuri.org/SendMail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS">
+      <soap:operation soapAction="http://tempuri.org/SendSMS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EricWebServicesSoap12" type="tns:EricWebServicesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="InsertIntoTempEMR">
+      <soap12:operation soapAction="http://tempuri.org/InsertIntoTempEMR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMail">
+      <soap12:operation soapAction="http://tempuri.org/SendMail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS">
+      <soap12:operation soapAction="http://tempuri.org/SendSMS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EricWebServices">
+    <wsdl:port name="EricWebServicesSoap" binding="tns:EricWebServicesSoap">
+      <soap:address location="http://10.200.1.79/EricWS/EricWebServices.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EricWebServicesSoap12" binding="tns:EricWebServicesSoap12">
+      <soap12:address location="http://10.200.1.79/EricWS/EricWebServices.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
